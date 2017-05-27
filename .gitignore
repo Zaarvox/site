@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    width: 33%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+td {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.tr1 {
+    background-color: white;
+}
+
+.tr2 {
+    background-color: lightyellow;   
+}
+
+.td1 {
+    text-align: center;   
+}
+
+.td2 {
+    text-align: right;   
+}
+        <meta charset="utf-8">
+        <title>Испытание: итоговая таблица</title>
+    </head>
+    <body>
+        <h1>Итоговая таблица</h1>
+        <table>
+            <tr>
+                <th style="text-align: left">Город</th>       
+                <th style="background-color: lightblue">Посещений</th>       
+                <th style="text-align: right">%</th>
+            </tr>
+            <tr class="tr1">
+                <td>СПб</td>         
+                <td class="td1">199</td>             
+                <td class="td2">65.12</td>
+            </tr>
+            <tr class="tr2">
+                <td>Москва</td>      
+                <td class="td1">69</td>              
+                <td class="td2">21.3</td>
+            </tr>
+            <tr class="tr1">
+                <td>Киев</td>        
+                <td class="td1">5</td>               
+                <td class="td2">8</td>
+            </tr>
+            <tr class="tr2">
+                <td colspan="2">Посещений за весь период</td>
+                <td class="td2">273</td>
+            </tr>
+        </table>
+    </body>
+</html>
